@@ -7,8 +7,6 @@ class Home extends Controller {
             'content'=>'home/index',
             'judul'=>'Dashboard',
         ];
-
-        
         $this->view('template/template', $data);
     }
 }
